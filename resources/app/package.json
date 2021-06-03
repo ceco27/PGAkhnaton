@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron-packager . --overwrite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "nexe": "^3.3.7",
+    "xlsx": "^0.16.8"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.1.0"
+  }
+}
